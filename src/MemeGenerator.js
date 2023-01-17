@@ -8,7 +8,7 @@ class MemeGenerator extends Component {
       font_size: "16",
       topText: "",
       bottomText: "",
-      randomImg: "http://i.imgflip.com/1bij.jpg",
+      randomImg: "https://i.imgflip.com/1bij.jpg",
       allMemeImgs: [],
       color:""
     };
