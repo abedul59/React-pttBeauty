@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import './App.css'
 
-class MemeGenerator extends Component {
+class MemeGenerator2 extends Component {
   constructor() {
     super();
     this.state = {
       font_size: "16",
       topText: "",
       bottomText: "",
-      randomImg: "https://i.imgur.com/ct87djV.jpg", //https://i.imgflip.com/1bij.jpg
+      randomImg: "https://i.imgur.com/yqB1Ifi.jpg", //https://i.imgflip.com/1bij.jpg
       allMemeImgs: [],
       color:""
     };
@@ -18,7 +18,7 @@ class MemeGenerator extends Component {
   
   handleClick = () => {
 
-    fetch("https://pttbeauty-restful.onrender.com/api/images/random/") //https://pttbeauty-restful.onrender.com/api/images/random/
+    fetch("https://igbeauty-restful.onrender.com/api/images/random/") //https://pttbeauty-restful.onrender.com/api/images/random/
     .then(data => data.json())
     .then(response => {
       const { id, Url } = response;
@@ -30,7 +30,7 @@ class MemeGenerator extends Component {
   };
 
   componentDidMount() { //https://api.imgflip.com/get_memes
-    fetch("https://pttbeauty-restful.onrender.com/api/images/random/") //https://pttbeauty-restful.onrender.com/api/images/random/
+    fetch("https://igbeauty-restful.onrender.com/api/images/random/") //https://pttbeauty-restful.onrender.com/api/images/random/
       .then(data => data.json())
       .then(response => {
         const { id, Url } = response;
@@ -45,7 +45,7 @@ class MemeGenerator extends Component {
     return (
       <div>
         <div className="meme-form">  
-          <button onClick={this.handleClick}>亂數選擇ptt表特圖片</button>
+          <button onClick={this.handleClick}>亂數選擇IG網美圖片</button>
         </div>
         <div className="meme">
 
@@ -58,7 +58,7 @@ class MemeGenerator extends Component {
   }
 }
 
-export default MemeGenerator;
+export default MemeGenerator2;
 
 
 
