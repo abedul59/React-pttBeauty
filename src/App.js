@@ -1,15 +1,19 @@
 import React from "react"
-import MemeGenerator from './MemeGenerator'
-import MemeGenerator2 from './MemeGenerator2'
+//import MemeGenerator from './MemeGenerator'
+//import MemeGenerator2 from './MemeGenerator2'
+import GetPttBeauty from './GetPttBeauty'
+import GetIgBeauty from './GetIgBeauty'
 import './App.css'
 
 function App() {
     return (
         <div>
-            <MemeGenerator />
+        <GetPttBeauty />
 
-        <MemeGenerator2 />
-    </div>
+
+        <GetIgBeauty />
+        
+            </div>
 )
 }
 

@@ -45,7 +45,7 @@ class MemeGenerator2 extends Component {
     return (
       <div>
         <div className="meme-form">  
-          <button onClick={this.handleClick}>亂數選擇IG網美圖片</button>
+          <button onClick={this.handleClick}>亂數選擇IG網美</button>
         </div>
         <div className="meme">
 
