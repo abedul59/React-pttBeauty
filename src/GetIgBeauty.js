@@ -22,8 +22,9 @@ const GetIgBeauty = () => {
 
 return (
     <div>
+      <h1>IG網美</h1>
       <div className="meme-form">  
-        <button onClick={handleClick}>IG網美亂數選擇</button>
+        <button onClick={handleClick}>亂數選擇</button>
       </div>
       <div className="meme">
 
