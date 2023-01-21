@@ -8,9 +8,9 @@ const Menu = () => {
   };
  
   return (
-    <ul>
+    <ul align="center">
       <button onClick={() => changeRouter('/Mainpage')}>主頁</button>
-      <button onClick={() => changeRouter('/GetIgBeauty')}>IG</button> 
+      <button onClick={() => changeRouter('/GetIgBeauty')} >IG</button> 
       <button onClick={() => changeRouter('/GetPttBeauty')}>PTT</button>
 
     </ul>

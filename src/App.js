@@ -12,10 +12,12 @@ function App() {
         <div>
   <HashRouter>
 	  <Menu />
+  
 	    <Switch>
+        <Route path="/mainpage" component={Mainpage} />
 	      <Route path="/getigbeauty" component={GetIgBeauty} />
 	      <Route path="/getpttbeauty" component={GetPttBeauty} />  
-	      <Route path="/mainpage" component={Mainpage} />  
+	        
 	    </Switch>
 	  </HashRouter>,
             </div>

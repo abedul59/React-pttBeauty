@@ -21,12 +21,12 @@ const GetPttBeauty = () => {
 };
 
 return (
-    <div>
+    <div  align="center">
       <h1>PTT表特</h1>
-      <div className="meme-form">  
+      <div className="meme-form"  align="center">  
         <button onClick={handleClick}>亂數選擇</button>
       </div>
-      <div className="meme">
+      <div className="meme"  align="center">
 
         <img src={picUrl} alt="" />
 
