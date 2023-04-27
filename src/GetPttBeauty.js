@@ -4,7 +4,7 @@ import {useState} from 'react';
 
 
 const GetPttBeauty = () => {
-    const [picUrl, setPicUrl] = useState("https://i.imgur.com/ct87djV.jpg");
+    const [picUrl, setPicUrl] = useState("https://i.imgur.com/yqB1Ifi.jpg");
 
 
     const handleClick = () => {
